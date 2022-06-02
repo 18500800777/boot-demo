@@ -1,0 +1,12 @@
+spring:
+  mvc:
+#    static-path-pattern: /res/**
+    hiddenmethod:
+      filter:
+        enabled: true
+    contentnegotiation:
+      favor-parameter: true
+  web:
+    resources:
+      add-mappings: true
+
