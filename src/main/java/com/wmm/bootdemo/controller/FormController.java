@@ -19,6 +19,7 @@ public class FormController {
     public String basicTable(){
         // int i= 10/0;
         System.out.println("3");
+        System.out.println("4");
         return "form/form_layouts";
     }
 
