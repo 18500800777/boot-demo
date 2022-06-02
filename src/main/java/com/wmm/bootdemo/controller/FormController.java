@@ -18,6 +18,7 @@ public class FormController {
     @GetMapping("/form_layouts")
     public String basicTable(){
         // int i= 10/0;
+        System.out.println("3");
         return "form/form_layouts";
     }
 
