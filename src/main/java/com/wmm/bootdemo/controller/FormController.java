@@ -17,7 +17,7 @@ public class FormController {
 
     @GetMapping("/form_layouts")
     public String basicTable(){
-        int i= 10/0;
+        // int i= 10/0;
         return "form/form_layouts";
     }
 
